@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | School</title>
+
+    <!-- Bootstrap CDN (start) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap CDN (end) -->
+
+    <!-- Fontawesome CDN (start) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Fontawesome CDN (end) -->
+
+    <!-- Owl carousel CSS (start) -->
+    <link
+      rel="stylesheet"
+      href="js/owl-carousel/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="js/owl-carousel/dist/assets/owl.theme.default.css"
+    />
+    <!-- Owl carousel CSS (end) -->
+
+    <!-- Facebook SDK (start) -->
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"
+      nonce="VDPAsRdq"
+    ></script>
+    <!-- Facebook SDK (end) -->
+
+    <!-- Custom CSS (start) -->
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- Custom CSS (end) -->
+  </head>
+  <body>
+    <!-- Suborno joyonti corner gallery image carousel(start) -->
+    <div class="gallery-image-carousel" style="display: none">
+      <button class="gallery-image-carousel-cross-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="gallery-image-carousel-container">
+        <div class="owl-carousel owl-theme owl-loaded owl-drag my-carousel-4">
+          <div class="owl-stage-outer">
+            <div class="owl-stage">
+              <div class="owl-item">
+                <div class="item">
+                  <div class="my-carousel-item-image">
+                    <img src="images/schoo_1.jpg" />
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div class="item">
+                  <div class="my-carousel-item-image">
+                    <img src="images/school_2.jpg" />
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div class="item">
+                  <div class="my-carousel-item-image">
+                    <img src="images/suborno-joyonti-bangladesh.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Suborno joyonti corner gallery image carousel(end) -->
+    <!-- Primary nav (start) -->
+    <nav class="primary-nav">
+      <div class="container">
+        <div class="primary-nav__content">
+          <div class="primary-nav__left">
+            <div class="logo">
+              <img src="images/school_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="primary-nav__right">
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="notices.html">Notices</a>
+            <a href="events-and-announcements.html">Events and Announcements</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="mujib-corner.html" class="mujib-corner">
+              <div class="mujib-corner-image">
+                <img src="images/mujib-corner.png" alt="" />
+              </div>
+              <p>মুজিব কর্নার</p>
+            </a>
+            <a href="suborno-joyonti-corner.html" class="mujib-corner">
+              <div class="mujib-corner-image">
+                <img src="images/suborno-joyonti-bangladesh.png" alt="" />
+              </div>
+              <p>সুবর্ণ জয়ন্তী কর্নার</p>
+            </a>
+          </div>
+          <div class="mobile-menu-hamburger-icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Primary nav (end) -->
+
+    <!-- Mobile menu (start) -->
+    <div class="mobile-menu">
+      <div class="mobile-menu-logo">
+        <div class="mobile-menu-logo-container">
+          <img src="images/school_logo.png" alt="" />
+        </div>
+        <div class="mobile-menu-cross-btn-container">
+          <button class="mobile-menu-cross-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-menu-nav-content mt-3">
+        <div class="mujib-and-suborno-joyonti-corner">
+          <a href="mujib-corner.html" class="mobile-mujib-corner">
+            <div class="mobile-mujib-corner-logo">
+              <img src="images/mujib-corner.png" alt="" />
+            </div>
+            <p>মুজিব কর্নার</p>
+          </a>
+          <a
+            href="suborno-joyonti-corner.html"
+            class="mobile-suborno-joyonti-corner"
+          >
+            <div class="mobile-suborno-joyonti-corner-logo">
+              <img src="images/suborno-joyonti-bangladesh.png" alt="" />
+            </div>
+            <p>সুবর্ণ জয়ন্তী কর্নার</p>
+          </a>
+          <a href="index.html" class="mobile-menu-nav-link">Home</a>
+          <a href="about-us.html" class="mobile-menu-nav-link">About Us</a>
+          <a href="notices.html" class="mobile-menu-nav-link">Notices</a>
+          <a href="events-and-announcements.html" class="mobile-menu-nav-link"
+            >Events and Announcements</a
+          >
+          <a href="gallery.html" class="mobile-menu-nav-link">Gallery</a>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile menu (end) -->
+
+    <!-- Gallery header (start) -->
+    <div class="gallery-header mb-4">
+      <div class="container">
+        <div class="gallery-header-container">
+          <div class="mujib-logo-container">
+            <img src="images/suborno-joyonti-bangladesh.png" alt="" />
+          </div>
+          <h4 class="mb-3">সুবর্ণ জয়ন্তী কর্নার</h4>
+          <p><a href="index.html">Home</a> / সুবর্ণ জয়ন্তী কর্নার</p>
+        </div>
+      </div>
+    </div>
+    <!-- Gallery header (end) -->
+
+    <!-- Gallery images (start) -->
+    <div class="gallery-images mb-5">
+      <div class="container">
+        <h6 class="gallery-images-header mb-4">Images</h6>
+        <div class="gallery-images-container">
+          <div class="gallery-image">
+            <img src="images/schoo_1.jpg" alt="" />
+          </div>
+          <div class="gallery-image">
+            <img src="images/school_2.jpg" alt="" />
+          </div>
+          <div class="gallery-image">
+            <img src="images/schoo_1.jpg" alt="" />
+          </div>
+          <div class="gallery-image">
+            <img src="images/school_2.jpg" alt="" />
+          </div>
+          <div class="gallery-image">
+            <img src="images/schoo_1.jpg" alt="" />
+          </div>
+          <div class="gallery-image">
+            <img src="images/school_2.jpg" alt="" />
+          </div>
+          <div class="gallery-image">
+            <img src="images/schoo_1.jpg" alt="" />
+          </div>
+          <div class="gallery-image">
+            <img src="images/school_2.jpg" alt="" />
+          </div>
+          <div class="gallery-image">
+            <img src="images/schoo_1.jpg" alt="" />
+          </div>
+          <div class="gallery-image">
+            <img src="images/school_2.jpg" alt="" />
+          </div>
+          <div class="gallery-image">
+            <img src="images/schoo_1.jpg" alt="" />
+          </div>
+          <div class="gallery-image">
+            <img src="images/school_2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Gallery images (end) -->
+
+    <!-- Gallery videos (start) -->
+    <!-- https://www.youtube.com/embed/ (this part always should be the same) -->
+    <div class="gallery-images mb-5">
+      <div class="container">
+        <h6 class="gallery-images-header mb-4">Videos</h6>
+        <div class="gallery-images-container">
+          <div class="gallery-video">
+            <iframe
+              src="https://www.youtube.com/embed/h2-TppW5C9w"
+              frameborder="0"
+              allowfullscreen
+            >
+              Your browser does not support the video tag.
+            </iframe>
+          </div>
+          <div class="gallery-video">
+            <iframe
+              src="https://www.youtube.com/embed/h2-TppW5C9w"
+              frameborder="0"
+              allowfullscreen
+            >
+              Your browser does not support the video tag.
+            </iframe>
+          </div>
+          <div class="gallery-video">
+            <iframe
+              src="https://www.youtube.com/embed/h2-TppW5C9w"
+              frameborder="0"
+              allowfullscreen
+            >
+              Your browser does not support the video tag.
+            </iframe>
+          </div>
+          <div class="gallery-video">
+            <iframe
+              src="https://www.youtube.com/embed/h2-TppW5C9w"
+              frameborder="0"
+              allowfullscreen
+            >
+              Your browser does not support the video tag.
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Gallery videos (end) -->
+
+    <!-- Footer (start) -->
+    <footer>
+      <!-- Secondary nav (start) -->
+      <nav class="secondary-nav">
+        <div class="container">
+          <div class="seconadry-nav__content">
+            <div class="secondary-nav__left">
+              <p><i class="fa-solid fa-phone-volume"></i> +8801932-629230</p>
+              <p><i class="fa-solid fa-phone-volume"></i> +8801932-629230</p>
+              <p><i class="fa-regular fa-envelope"></i> ashk11534@gmail.com</p>
+            </div>
+            <div class="secondary-nav__right">
+              <p><i class="fa-brands fa-facebook"></i></p>
+              <p><i class="fa-brands fa-square-twitter"></i></p>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Secondary nav (end) -->
+    </footer>
+    <!-- Footer (end) -->
+
+    <!-- JQuery CDN (start) -->
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <!-- JQuery CDN (end) -->
+
+    <!-- Bootstrap CDN (start) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap CDN (end) -->
+
+    <!-- Owl carousel JS (start) -->
+    <script
+      type="text/javascript"
+      src="js/owl-carousel/dist/owl.carousel.min.js"
+    ></script>
+    <!-- Owl carousel JS (end) -->
+
+    <!-- Custom JS (start) -->
+    <script src="js/suborno_joyonti_corner.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/mobile_menu.js"></script>
+    <!-- Custom JS (end) -->
+  </body>
+</html>
