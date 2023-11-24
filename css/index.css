@@ -125,6 +125,8 @@ p {
   height: 50px;
   width: 50px;
   overflow: hidden;
+  text-decoration: none;
+  display: block;
 }
 
 .primary-nav__content .logo img {
@@ -155,6 +157,8 @@ p {
   height: 50px;
   width: 50px;
   overflow: hidden;
+  text-decoration: none;
+  display: block;
 }
 
 .mobile-menu-logo-container img {
@@ -470,13 +474,30 @@ p {
   overflow: auto;
 }
 
+.notice-search-form input,
+.circular-search-form input,
+.syllabus-search-form input,
+.teacher-search-form input,
+.staff-search-form input,
+.student-search-form input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--primary-nav-background-color);
+}
+
 .notices .notice {
   border-radius: 5px;
   margin-bottom: 15px;
+  text-decoration: none;
+  display: block;
 }
 
 .notices .notice h6 {
   padding: 10px;
+  color: #333;
 }
 
 .notices .notice p {
@@ -786,6 +807,32 @@ p {
   width: 70%;
 }
 
+.events-and-announcements-search-form {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.events-and-announcements-filter,
+.events-and-announcements-input {
+  width: 50%;
+}
+
+.events-and-announcements-input input {
+  line-height: 0;
+}
+
+.events-and-announcements-filter select,
+.events-and-announcements-input input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  border: 1px solid var(--primary-nav-background-color);
+}
+
 .sidebar {
   width: 30%;
   flex: 1;
@@ -1080,6 +1127,13 @@ p {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 0px;
+  }
+  .events-and-announcements-search-form {
+    flex-direction: column;
+  }
+  .events-and-announcements-filter,
+  .events-and-announcements-input {
+    width: 100%;
   }
 }
 @media (max-width: 386px) {
