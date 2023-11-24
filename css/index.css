@@ -48,7 +48,7 @@ p {
 .secondary-nav {
   background-color: var(--secondary-nav-background-color);
   color: var(--secondary-nav-text-color);
-  padding: 20px;
+  padding: 30px 20px;
 }
 
 .seconadry-nav__content,
