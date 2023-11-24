@@ -70,14 +70,17 @@ p {
 }
 
 .secondary-nav__left a,
-.secondary-nav__middle a {
+.secondary-nav__middle a,
+.system-developer a {
   text-decoration: none;
   color: var(--secondary-nav-text-color);
   font-size: var(--primary-text-font-size);
 }
 
 .secondary-nav__left a:hover,
-.secondary-nav__middle a:hover {
+.secondary-nav__middle a:hover,
+.system-developer a:hover,
+.system-developer a:hover {
   text-decoration: underline;
 }
 
