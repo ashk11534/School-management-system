@@ -100,6 +100,12 @@ p {
   padding-bottom: 5px;
 }
 
+.secondary-nav__left,
+.secondary-nav__middle,
+.secondary-nav__right {
+  width: 30%;
+}
+
 .primary-nav {
   background-color: var(--primary-nav-background-color);
   height: 70px;
@@ -1006,6 +1012,12 @@ p {
   .all-events-and-announcements .sidebar,
   .event-and-announcement-details-main-content {
     width: 100%;
+  }
+
+  .secondary-nav__left,
+  .secondary-nav__middle,
+  .secondary-nav__right {
+    width: 48%;
   }
 }
 
