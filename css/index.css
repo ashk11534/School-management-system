@@ -47,31 +47,57 @@ p {
 
 .secondary-nav {
   background-color: var(--secondary-nav-background-color);
-  height: 80px;
   color: var(--secondary-nav-text-color);
-}
-
-.seconadry-nav__content {
-  height: 80px;
+  padding: 20px;
 }
 
 .seconadry-nav__content,
 .primary-nav__content {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.primary-nav__content {
+  align-items: center;
 }
 
 .secondary-nav__left {
   display: flex;
-  align-items: center;
-  gap: 15px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.secondary-nav__left a,
+.secondary-nav__middle a {
+  text-decoration: none;
+  color: var(--secondary-nav-text-color);
+  font-size: var(--primary-text-font-size);
+}
+
+.secondary-nav__left a:hover,
+.secondary-nav__middle a:hover {
+  text-decoration: underline;
+}
+
+.secondary-nav__middle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .secondary-nav__right {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 10px;
+}
+
+.secondary-nav__left h6,
+.secondary-nav__middle h6,
+.secondary-nav__right h6 {
+  border-bottom: 2px solid var(--primary-nav-background-color);
+  padding-bottom: 5px;
 }
 
 .primary-nav {
@@ -999,6 +1025,15 @@ p {
     width: 48%;
   }
 }
+
+@media (max-width: 544px) {
+  .secondary-nav__left,
+  .secondary-nav__middle,
+  .secondary-nav__right {
+    width: 100%;
+  }
+}
+
 @media (max-width: 539px) {
   .teacher,
   .quick-info__main__content_item {
@@ -1079,6 +1114,6 @@ p {
 
 /* Don't forget to remove this style later */
 
-footer {
+/* footer {
   display: none;
-}
+} */
